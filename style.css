@@ -1,1 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main app container */
+.container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* App heading */
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Input section layout */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+/* Task input field */
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+/* Add button */
+button {
+    padding: 8px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #5a67d8;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* Individual task item */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Completed task style */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
 
