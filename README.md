@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-A modern and responsive **To-Do List Web Application** built using **HTML, CSS, and Vanilla JavaScript**.  
+A modern and responsive **To-Do List Web Application** built using **HTML, CSS, and JavaScript**.  
 This application helps users manage daily tasks efficiently with a clean user interface and persistent storage.
 
 ---
@@ -10,7 +10,6 @@ This application helps users manage daily tasks efficiently with a clean user in
 The To-Do List App allows users to add, edit, delete, and mark tasks as completed.  
 All tasks are stored in the browser’s **Local Storage**, ensuring data persistence even after page refresh.
 
-This project is ideal for **college assignments, front-end practice, and GitHub portfolio showcase**.
 
 ---
 
@@ -31,7 +30,7 @@ This project is ideal for **college assignments, front-end practice, and GitHub 
 
 - **HTML5** – Page structure  
 - **CSS3** – Styling & responsive layout  
-- **JavaScript (Vanilla JS)** – Functionality and logic  
+- **JavaScript** – Functionality and logic  
 - **GitHub Pages** – Live hosting  
 
 ---
